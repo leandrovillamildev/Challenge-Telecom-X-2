@@ -51,13 +51,13 @@
 <p>Divide el conjunto de datos en entrenamiento y prueba para evaluar el rendimiento del modelo. Una división común es 70% para entrenamiento y 30% para prueba, o 75/25, 80/20, dependiendo del tamaño de la base de datos.</p>
 <h4>Creación de modelos</h4>
 <p>Crea al menos dos modelos diferentes para predecir la cancelación de clientes.</p>
-<p>-Un modelo puede requerir normalización, como regresión logística o KNN.</p>
-<p>-El otro modelo puede no requerir normalización, como árbol de decisión o random forest.</p>
-<p>La decisión de aplicar o no la normalización depende de los modelos seleccionados. Ambos modelos pueden ser creados sin normalización, pero también es una opción combinar modelos con y sin normalización.</p>
-<p>Justificación:</p>
-<p>-Regresión Logística / KNN: Estos modelos son sensibles a la escala de los datos, por lo que la normalización es importante para que los coeficientes o las distancias se calculen correctamente.</p>
-<p>Árbol de Decisión / Random Forest: Estos modelos no dependen de la escala de los datos, por lo que no es necesario aplicar normalización.</p>
-<p>Si decides normalizar los datos, deberías explicar cómo esta etapa asegura que los modelos basados en distancia o en optimización de parámetros no se vean sesgados por la magnitud de las variables.</p>
+<h4>Evaluación de los modelos</h4>
+<p>Evalúa cada modelo utilizando las siguientes métricas:</p>
+<p>-Exactitud (Acurácia)</p>
+<p>-Precisión</p>
+<p>-Recall</p>
+<p>-F1-score</p>
+<p>-Matriz de confusión</p>
 <br>
 <h2>⚙️ Entorno de desarrollo</h2>
 <p>Google Colab.</p>
@@ -71,5 +71,6 @@
 <p>-matplotlib.</p>
 <p>-seaborn.</p>
 <p>-scikit-learn.</p>
+<p>-imbalanced-Learn.</p>
 <p>-numpy.</p>
 <p>-pickle.</p>
