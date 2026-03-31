@@ -13,8 +13,7 @@
 <br>
 <h2>📖 Misión</h2>
 <h4>Churn de Clientes</h4>
-<p>La misión es desarrollar modelos predictivos capaces de prever qué clientes tienen mayor probabilidad de cancelar sus servicios.</p>
-<p>La empresa quiere anticiparse al problema de la cancelación, y nos corresponde construir un pipeline robusto para esta etapa inicial de modelado.</p>
+<p>La misión es desarrollar modelos predictivos capaces de prever qué clientes tienen mayor probabilidad de cancelar sus servicios, la empresa quiere anticiparse al problema de cancelación</p>
 <br>
 <p>¿Qué se practicará?</p>
 <p>Preprocesamiento de datos para Machine Learning.</p>
